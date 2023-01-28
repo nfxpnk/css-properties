@@ -1,0 +1,42 @@
+.main {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.blocks {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+}
+
+.block {
+	width: 100px;
+	height: 40px;
+	border-style: solid;
+	border-width: 4px;
+	text-align: center;
+}
+
+.switch {
+	margin-bottom: 20px;
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+	padding: 10px;
+	border-bottom: 2px solid lightgrey;
+}
+
+
+.switch button {
+	padding: 10px;
+	font-size: 16px;
+}
+
+.theme-light {
+	background-color: #ffffcc;
+}
+
+.theme-dark {
+	background-color: #cce6ff;
+}
